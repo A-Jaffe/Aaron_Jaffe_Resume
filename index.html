@@ -42,12 +42,6 @@
     text-align: center;
     }
 
-    h2 {
-    color: white;
-    text-align: center;
-    animation: colorchange 2s infinite;
-    }
-
     .image {
     text-align: center;
     }
@@ -57,7 +51,7 @@
     }
 
     .button:hover {
-    color: green;
+    color: blue;
     }
 
     .fa:hover {
@@ -65,14 +59,24 @@
     }
 
     @keyframes colorchange {
-    20% {color: blue;}
+    25% {
+        color: blue;
+    }
+    50% {
+        color: green;
+    }
+    75% {
+        color: purple;
+    }
+    100% {
+        color: yellow;
     }
 </style>
 
 </head>
 <body style="background-color: black;">
     <!--Page Heading-->
-    <h1 style="text-align:center;color:white;animation:colorchange 2s infinite;">
+    <h1 style="text-align:center;color:white;animation:colorchange 2s;">
         Aaron Jaffe | Software Developer </h1>
 
     <!--Picture of me-->
@@ -82,11 +86,14 @@
     <hr/>
 
     <!--About me section-->
-    <h2><u>About Me</u></h2>
-    <p>My name is Aaron Jaffe and I am a Software Developer,
-        After 10 years in sound technologies I pivoted into software
-        application and web development.</br> I am competant in
-        Python, Java, HTML and CSS and I am currently available for work.
+    <h2 style="text-align:center;color:white;animation:colorchange 4s;"><u>About Me</u></h2>
+    <p>My name is Aaron Jaffe, and I am a Software Engineer.
+        After 10 years in sound technologies I have pivoted into software
+        and web development.</br> I have recently completed a 6-month Software Engineering
+        course with <a href="https://www.hyperiondev.com/" class="button">HyperionDev</a>
+        and I achieved a 99% grade. I am trained in Python and Java and have also
+        worked with SQL, HTML and CSS and Machine Learning. I am  currently teaching myself
+        Amazon Web Services and EC2 and am available for work.
     </p>
 
     <p>I am a consistent, creative and passionate person who
@@ -97,7 +104,7 @@
     <hr/>
 
     <!--Contact details with links-->
-    <h2><u>Contact Details</u></h2>
+    <h2 style="text-align:center;color:white;animation:colorchange 6s;"><u>Contact Details</u></h2>
         <p>
             <a href="mailto:jaffeaudio@gmail.com" class="fa fa-envelope"></a>
             <a href="https://www.linkedin.com/in/aaron-jaffe-12b28984/" class="fa fa-linkedin"></a>
@@ -107,7 +114,7 @@
     <hr/>
 
     <!--List of programming languages-->
-    <h2><u>Languages</u></h2>
+    <h2 style="text-align:center;color:white;animation:colorchange 8s;"><u>Languages</u></h2>
     <p>
         Python</br>
         Java</br>
@@ -117,17 +124,25 @@
     </p>
     <hr/>
 
+    <!--List of additional skills-->
+    <h2 style="text-align:center;color:white;animation:colorchange 10s;"><u>Additional Skills</u></h2>
+    <p>
+        AWS & EC2</br>
+        Machine Learning</br>
+    </p>
+    <hr/>
+
     <!--Previous education section-->
-    <h2><u>Education</u></h2>
+    <h2 style="text-align:center;color:white;animation:colorchange 12s;"><u>Education</u></h2>
         <p><b><u>Software Engineering Bootcamp at
             <a href="https://www.hyperiondev.com/" class="button">HyperionDev</a> (2022)</u></b></br>
         </p>
         <p> Developed applications in Python and Java to run calculations
             and manage projects and tasks for businesses. <br/>Worked with SQL and
-            MySQL database. Software architecture, system designs, refactoring
-            large code-bases and streamlining applications. HTML and CSS
-            for web development. Basic Machine learning algorithms including
-            kmeans and linear/polynomial regression.
+            MySQL database. Course included Software Architecture, System Design, Refactoring
+            large code-bases, Quality Assurance, Deployment and Maintenance and Unit Testing.
+            Introduction to HTML and CSS for web development. Machine learning algorithms
+            including kmeans and linear/polynomial regression with Scikit-Learn in python.
         </p>
 
         <p><b><u>Financial Management UCT Course (2019)</u></b></br></p>
@@ -136,14 +151,14 @@
         </p>
 
         <p><b><u>BA Honors: Film and Media (2019)</u></b></br></p>
-        <p> Tasks ranging from script writing and editing all the way through the film
+        <p> Classes ranging from script writing and editing all the way through the film
             production and post-production processes. Lead a film sound team and
             won a silver merit award for outstanding achievement in sound design.
         </p>
     <hr/>
 
-    <!--Previos experience section-->
-    <h2><u>Experience</u></h2>
+    <!--Previous experience section-->
+    <h2 style="text-align:center;color:white;animation:colorchange 14s;"><u>Experience</u></h2>
         <p><b><u>Office Administrator (2011-present)</u></b></br></p>
         <p> Property Trust lead administrator. Duties include balancing cashflows,
             invoicing, VAT reconciliation, customer relations and all other
@@ -162,7 +177,7 @@
     <hr/>
 
     <!--Previous projects section-->
-    <h2><u>Links to Some Previous Coding Projects</u></h2>
+    <h2 style="text-align:center;color:white;animation:colorchange 16s;"><u>Links to Some Previous Coding Projects</u></h2>
         <p><a href="https://github.com/A-Jaffe/Financial-Calculator-capstone-1-" class="button">
             Financial Calculator</a></br>
         </p>
